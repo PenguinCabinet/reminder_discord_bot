@@ -44,6 +44,9 @@ now_add_minute
 
 now_add_hour
     =v:integer "時間後"
+    {
+        return {"type":"add_hour","v":v}
+    }
     /v:integer "時後"{
         return {"type":"add_hour","v":v}
     }
