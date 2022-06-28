@@ -31,7 +31,7 @@ docker-compose -f docker-compose-example.yml up -d
 
 ```bash
 git clone https://github.com/PenguinCabinet/reminder_discord_bot
-cd yominon
+cd reminder_discord_bot
 vim docker-compose.yml 
 # docker-compose.ymlの環境変数のBOT_KEYに開発者ページで作成したDiscord BotのKeyを入力してください
 #もしくはホストOS上で"export reminder_BOT_KEY=<your discord bot key>"を実行します
